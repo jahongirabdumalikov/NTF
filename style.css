@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #2B2B2B;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.nav {
+    padding: 20px;
+}
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__list>li>a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav__btn>button {
+    padding: 15px 30px 15px 30px;
+    background-color: #A259FF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+.create__wrapper{
+    display: flex;
+    gap: 60px;
+}
+
+.wrapper__right>h1{
+    margin-top: 100px;
+    font-size: 51px;
+    color: #fff;
+}
+
+.wrapper__right>p{
+    margin-top: 15px;
+    color: #dfdede;
+    font-size: 22px;
+    font-weight: 400;
+}
+.card{
+    margin-top: 50px;
+}
+
+.wrapper__card{
+    max-width: 330px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+input{
+    border: none;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.card>button{
+    padding: 15px 120px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: #fff;
+}
+
+footer{
+    padding: 40px 195px 40px 195px;
+    background-color: #3B3B3B;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    margin-top: 10px;
+    color: #dfdede;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.footer-title1{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.footer-end-text{
+    color: #cecece;
+    font-size: 16px;
+    font-weight: 300;
+    align-items: center;
+    margin-top: 20px;
+}
